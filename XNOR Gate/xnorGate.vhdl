@@ -10,4 +10,4 @@ end xnor_gate;
 ARCHITECTURE behavioral of xnor_gate is
     begin
         z<= x XNOR y;
-    end xnor_gate
+end behavioral;
