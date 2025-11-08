@@ -10,6 +10,7 @@ end nor_gate;
 ARCHITECTURE behavioral of nor_gate is
     begin 
         z<= x NOR y;
-    end nor_gate;
+    end behavioral;
+
 
 
