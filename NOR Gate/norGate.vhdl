@@ -7,8 +7,9 @@ ENTITY nor_gate is
 end nor_gate;
 
 
-ARChITECTURE behavioral of nor_gate is
+ARCHITECTURE behavioral of nor_gate is
     begin 
         z<= x NOR y;
     end nor_gate;
+
 
