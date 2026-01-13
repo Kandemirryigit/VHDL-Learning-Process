@@ -1,0 +1,6 @@
+Soru1:
+* JK tipi Flip-Flop'un SR tipi Flip-Floptan farkı nedir?
+
+cevap1:
+- SR tipi Flip-Flop'ta S=1 ve S=1 durumunda devre saçmalıyordu
+- JK tipi Flip-Flop bu durumu çözüyor ve J=1 K=1 durumunda Q' yapıyor
