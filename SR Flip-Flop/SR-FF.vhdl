@@ -14,11 +14,11 @@ begin
         if(rising_edge(CLK)) then
             if(S='0' and R='0') then
                 temp<=temp;   -- Değişiklik yok
-            elseif(S='0' and R='1') then
+            elsif(S='0' and R='1') then
                 temp<='0';    -- Reset
-            elseif(S='1' and R='0') then
+            elsif(S='1' and R='0') then
                 temp<='1';   -- Set
-            elseif(S='1' and R='1') then
+            elsif(S='1' and R='1') then
                 temp<=Z;    -- Tanımsız
             end if;
         end if;
@@ -27,3 +27,4 @@ begin
     Q<=temp;
 
 end behavioral;
+
