@@ -1,0 +1,8 @@
+Soru1:
+* SR Flip-Flop'un 1-1 durumu neden yasaktır?
+
+cevap1:
+- Çünkü S=1 demek çıkış değerini 1 yap demektir
+- R=1 demek çıkış değerini 0 yap demektir
+- S=1 ve R=1 oldugu senaryoda devre kararsız bir duruma girer 1 mi yapıcam 0 mı diye karar veremez
+- SR tipi Flip-Flop'un bu durumu JK tipi Flip-Flop ile giderilmiştir
