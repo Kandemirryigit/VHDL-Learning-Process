@@ -11,17 +11,17 @@ architecture behavioral of mim is
     component andTwo
         port(a,b: in std_logic;
              c: out std_logic);
-    end andTwo;
+    end component;
 
     component nandThree
         port(a,b,c: in std_logic;
              d: out std_logic);
-    end nandThree;
+    end component;
 
     component nandTwo
         port(a,b: in std_logic;
              c: out std_logic);
-    end nandTwo;
+    end component;
 
     signal output_of_u1: std_logic:='0';
 
@@ -42,5 +42,6 @@ architecture behavioral of mim is
             a=>g3,
             b=>output_of_u1,
             c=>c1);
+
 
 end behavioral;
